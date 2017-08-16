@@ -15,8 +15,9 @@ find_package(Boost REQUIRED)
 endif()
 find_package(OpenCV CONFIG 3 REQUIRED
   COMPONENTS
-    opencv_core
-    opencv_imgproc
+    core
+    imgproc
+    imgcodecs
 )
 
 catkin_package(
